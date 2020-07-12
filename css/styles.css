@@ -1,0 +1,215 @@
+/* Body  */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* Default font for the webpage */
+    text-align: center;
+}
+
+/* Headings */
+
+h2,
+h3 {
+    font-family: 'Montserrat-bold',
+        sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 2.0;
+}
+
+h3 {
+    font-family: 'Montserrat',
+        sans-serif;
+    line-height: 1.5rem;
+
+    /* OverWrittem font-family: and line-height */
+}
+
+/* Background color */
+
+#title,
+#cta {
+    background-color: #ff4368;
+}
+
+#testimonials,
+#press {
+    background-color: #EF8172;
+}
+
+/* Title-Section */
+
+#title {
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    size: 3rem;
+    line-height: 2;
+    color: #fff;
+    margin: 20% 0 5% 0;
+}
+
+.container-fluid {
+    padding: 3% 15% 9%;
+}
+
+.download-button {
+    padding-left: 50px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-family: 'Fondamento', cursive;
+}
+
+.btn-dark {
+    margin-right: 30px;
+}
+
+.title-image {
+    transform: rotate(25deg);
+    position: absolute;
+    width: 60%;
+    right: 30%;
+    top: 10%;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+/* Features-Section */
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    background-color: #fff;
+    z-index: 0;
+    /* for hide phone image*/
+}
+
+.feature-title{
+    line-height: 2.5rem;
+}
+
+.col-lg-4 {
+    padding: 5%;
+}
+
+.icon {
+    color: #EF8172;
+    margin-bottom: 5%;
+}
+
+.icon:hover {
+    color: #ff4368;
+}
+
+.feature-p{
+    padding-top: 10%;
+}
+
+/* Testimonials-section */
+
+#testimonials {
+    padding: 10%;
+    color: #fff;
+}
+
+.carousel-item {   /* card items */
+    padding: 7% 15% 0% 15%;
+}
+
+
+.testimonials-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press-section */
+
+#press {
+    padding-bottom: 5%;
+}
+
+.press-logo {
+    width: 200px;
+    margin: 0 7% 0 0;
+}
+
+/* Pricing-section */
+
+#pricing {
+    padding: 6.25rem;
+}
+
+
+/* Call to Action */
+
+#cta {
+    padding: 10% 15%;
+}
+
+.footer-h3 {
+    font-family: 'Montserrat-black',
+        sans-serif;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 2.0;
+}
+
+.cta-btn {
+    margin-top: 5%;
+}
+
+
+/* Footer-section */
+
+#footer {
+    margin: 7%;
+}
+
+.f-row {
+    padding-left: 10%;
+}
+
+.i-am-centered {
+    margin: auto;
+    max-width: 300px;
+}
+
+
+.social-button {
+    padding: 0% 16% 10% 0;
+}
+
+.cta-btn.btn-dark.btn-lg{
+    border: 0;
+}
+
+
+/* Adoptive UI- mediaQuery section */
+/* Dont't touch this section without knowing this */
+
+@media (max-width:1120px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        margin-top: 20%;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .download-button {
+        margin-bottom: 10%;
+    }
+
+}
